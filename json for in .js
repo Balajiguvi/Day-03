@@ -1,7 +1,7 @@
  /***************************************json iteration********************************/
 
  var person={
-   name:"aravindh",
+   name:"Balaji",
    gender:"male",
   
 }
@@ -20,9 +20,8 @@ for(let i=0;i<personjson.length;i++){
    //console.log(personjson[i]);
    
 }
-let arr = ["apple","orange","kiwi","fig"]
-//let arr1=JSON.stringify(arr);
-let arr2=[]
+
+let arr = ["apple","orange","kiwi","fig"]                                         // for each
 arr.forEach(  (element)=> {
    console.log(element);
 });
