@@ -1,8 +1,8 @@
  /***************************************json iteration********************************/
 
  var person={
-   name:"Balaji",
-   gender:"male",
+   "name":"Balaji",
+   "gender":"male",
   
 }
 let personjson=JSON.stringify(person);
